@@ -35,7 +35,9 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    description="An asynchronous (threaded) API for interfacing with gamepads.",
+    description="""
+        An asynchronous (threaded) API for interfacing with gamepads.
+    """,
     entry_points={
         'console_scripts': [
             'gamepad=gamepad.cli:main',
