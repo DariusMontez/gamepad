@@ -14,6 +14,8 @@ def main(args=None):
     controller = Gamepad()
     controller.watch_all()
 
+    click.echo("Connect a gamepad and start mashing buttons!")
+
     input("Press ENTER to quit\n\n")
 
     return 0
