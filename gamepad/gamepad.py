@@ -2,11 +2,14 @@
 
 """Main module."""
 
+from __future__ import print_function
+
 import os
 import struct
 import array
 import threading
 from fcntl import ioctl
+
 
 axis_names = {
     0x00: 'x',
