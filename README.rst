@@ -10,7 +10,7 @@ Python Gamepad API
         :target: https://travis-ci.org/DariusMontez/gamepad
 
 .. image:: https://readthedocs.org/projects/gamepad/badge/?version=latest
-        :target: https://gamepad.readthedocs.io/en/latest/?badge=latest
+        :target: https://pygamepad.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
@@ -20,7 +20,7 @@ An asynchronous (threaded) API for interfacing with gamepads.
 
 
 * Free software: MIT license
-* Documentation: https://gamepad.readthedocs.io.
+* Documentation: https://pygamepad.readthedocs.io.
 
 
 Features
