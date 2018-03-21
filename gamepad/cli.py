@@ -4,13 +4,18 @@
 import sys
 import click
 
+from gamepad.gamepad import Gamepad
+
 
 @click.command()
 def main(args=None):
     """Console script for gamepad."""
-    click.echo("Replace this message by putting your code into "
-               "gamepad.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    
+    controller = Gamepad()
+    controller.watch_all()
+
+    input("Press ENTER to quit\n\n")
+
     return 0
 
 
