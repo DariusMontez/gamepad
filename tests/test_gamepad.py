@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from gamepad import gamepad
+# from gamepad.gamepad import Gamepad
 from gamepad import cli
 
 
