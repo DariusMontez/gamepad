@@ -10,7 +10,7 @@ from gamepad.gamepad import Gamepad
 @click.command()
 def main(args=None):
     """Console script for gamepad."""
-    
+
     controller = Gamepad()
     controller.watch_all()
 
