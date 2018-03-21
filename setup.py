@@ -54,4 +54,5 @@ setup(
     url='https://github.com/DariusMontez/gamepad',
     version='0.1.0',
     zip_safe=False,
+    python_requires='>=3',
 )
