@@ -4,7 +4,7 @@
 import sys
 import click
 
-from gamepad.gamepad import Gamepad
+from gamepad import Gamepad
 
 
 @click.command()
