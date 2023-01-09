@@ -9,4 +9,4 @@ Sphinx==6.1.2
 twine==4.0.2
 
 pytest==7.2.0
-pytest-runner==5.2
+pytest-runner==6.0.0
